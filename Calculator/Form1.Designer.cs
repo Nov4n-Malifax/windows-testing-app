@@ -59,7 +59,6 @@ namespace Calculator
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -87,7 +86,7 @@ namespace Calculator
             this.textBox_OutPutValue.MaxLength = 1;
             this.textBox_OutPutValue.Name = "textBox_OutPutValue";
             this.textBox_OutPutValue.ReadOnly = true;
-            this.textBox_OutPutValue.Size = new System.Drawing.Size(254, 64);
+            this.textBox_OutPutValue.Size = new System.Drawing.Size(254, 43);
             this.textBox_OutPutValue.TabIndex = 2;
             this.textBox_OutPutValue.Text = "0";
             this.textBox_OutPutValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -465,30 +464,18 @@ namespace Calculator
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(9, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(171, 45);
+            this.label1.Size = new System.Drawing.Size(118, 30);
             this.label1.TabIndex = 0;
             this.label1.Text = "Calculator";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label1_MouseDown);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(34, 449);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(296, 32);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Calculator by Ruben Roy";
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.ClientSize = new System.Drawing.Size(271, 478);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.Lbl_1);
             this.Controls.Add(this.button22);
@@ -558,7 +545,6 @@ namespace Calculator
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label2;
     }
 }
 
